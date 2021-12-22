@@ -9,7 +9,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./Klorofil/html:/var/www/Klorofil/html/
+      - .:/var/www/html/
     ports:
       - 8001:80
   db:
