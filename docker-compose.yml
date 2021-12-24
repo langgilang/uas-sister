@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   php-apache-environment:
-    image: azaliasaf/Klorofil
+    image: gsp140501/Klorofil
     container_name: php-apache2
     build:
       context: ./php
